@@ -16,29 +16,29 @@ button:focus-visible {
 a {
   text-decoration: none;
 }
-/* @FONTWARNING[{"type": "restricted", "family": "Microsoft YaHei UI-Bold", "weight": "700", "style": "normal", "allowsCrossOrigin": false}] */
-
-@font-face {
-  font-family: "Microsoft YaHei UI-Bold";
-  src: local("Microsoft YaHei UI-Bold");
-}
 /* @FONTWARNING[{"type": "restricted", "family": "Inter-Medium", "weight": "500", "style": "normal", "allowsCrossOrigin": false}] */
 
 @font-face {
   font-family: "Inter-Medium";
   src: local("Inter-Medium");
 }
-/* @FONTWARNING[{"type": "restricted", "family": "Inter-Bold", "weight": "700", "style": "normal", "allowsCrossOrigin": false}] */
+/* @FONTWARNING[{"type": "restricted", "family": "Noto Sans-Bold", "weight": "700", "style": "normal", "allowsCrossOrigin": false}] */
 
 @font-face {
-  font-family: "Inter-Bold";
-  src: local("Inter-Bold");
+  font-family: "Noto Sans-Bold";
+  src: local("Noto Sans-Bold");
 }
 /* @FONTWARNING[{"type": "restricted", "family": "Inter-Regular", "weight": "400", "style": "normal", "allowsCrossOrigin": false}] */
 
 @font-face {
   font-family: "Inter-Regular";
   src: local("Inter-Regular");
+}
+/* @FONTWARNING[{"type": "restricted", "family": "Inter-Bold", "weight": "700", "style": "normal", "allowsCrossOrigin": false}] */
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: local("Inter-Bold");
 }
 /* @FONTWARNING[{"type": "restricted", "family": "Noto Sans SC-Bold", "weight": "700", "style": "normal", "allowsCrossOrigin": false}] */
 
