@@ -9,115 +9,101 @@
   </head>
   <body>
     <div class="my-page">
-      <header class="header">
-        <img class="logo" src="img/logo.png" alt="PIVOTBRIDGE Logo" />
-        <nav class="menu-wrap" aria-label="Main Navigation">
+      <header class="header" role="banner">
+        <img class="logo" src="./img/common/logo.png" alt="PIVOTBRIDGE 로고" />
+        <nav class="menu-wrap" role="navigation" aria-label="주 메뉴">
           <div class="div">
-            <ul class="right-menu" role="menubar">
-              <li class="menu" role="none">
-                <a href="#" class="text" role="menuitem">M&amp;A탐색</a>
-              </li>
-              <li class="text-wrapper" role="none">
-                <a href="#" class="text" role="menuitem">M&amp;A등록</a>
-              </li>
-              <li class="text-wrapper" role="none">
-                <a href="#" class="text" role="menuitem">매칭알림</a>
-              </li>
-              <li class="text-wrapper" role="none">
-                <a href="#" class="text" role="menuitem">매각가 추정</a>
-              </li>
-              <li class="text-wrapper" role="none">
-                <a href="#" class="text" role="menuitem">데이터룸</a>
-              </li>
-              <li class="div-wrapper" role="none">
-                <a href="#" class="text" role="menuitem" aria-current="page">마이페이지</a>
-              </li>
+            <ul class="right-menu">
+              <li class="menu"><a href="#" class="text">M&amp;A탐색</a></li>
+              <li class="menu"><a href="#" class="text">M&amp;A등록</a></li>
+              <li class="menu"><a href="#" class="text">매칭알림</a></li>
+              <li class="menu"><a href="#" class="text">매각가 추정</a></li>
+              <li class="menu"><a href="#" class="text">데이터룸</a></li>
+              <li class="text-wrapper"><a href="#" class="text">마이페이지</a></li>
             </ul>
-            <img class="divider" src="img/divider.svg" alt="" role="presentation" />
-            <div class="text-wrapper">
-              <a href="#" class="text">제휴기관</a>
-            </div>
+            <div class="divider"></div>
+            <div class="menu"><a href="#" class="text">제휴기관</a></div>
           </div>
           <div class="div">
-            <img class="company-img" src="img/company-img.png" alt="Company Icon" />
+            <img class="company-img" src="./img/common/company_img.png" alt="회사 아이콘" />
             <span class="text-wrapper-2">Company</span>
           </div>
-          <a href="#" aria-label="Login">
-            <img class="login-icon" src="img/login-icon.png" alt="Login" />
+          <a href="#" aria-label="로그인">
+            <img class="login-icon" src="./img/common/login_icon.png" alt="로그인 아이콘" />
           </a>
         </nav>
       </header>
-      <section class="banner">
+      <section class="banner" role="region" aria-label="페이지 배너">
         <div class="banner-box">
           <div class="description-box">
             <h1 class="gateway-to-the-m-a">Personalized User<br />Dashboard</h1>
             <p class="text-wrapper-3">회원님의 플랫폼 활동정보가 관리됩니다.</p>
           </div>
-          <img class="banner-img" src="img/banner-img.png" alt="Dashboard Illustration" />
+          <img class="banner-img" src="./img/common/banner_img.png" alt="대시보드 일러스트레이션" />
         </div>
       </section>
-      <main class="main-area">
-        <aside class="side-menu" aria-label="Side Navigation">
-          <img class="side-menu-img" src="img/side-menu-img.png" alt="" role="presentation" />
-          <nav class="side-menu-box">
+      <main class="main-area" role="main">
+        <aside class="side-menu" role="complementary" aria-label="사이드 메뉴">
+          <img class="side-menu-img" src="./img/frame_3/side_menu_img.png" alt="사이드 메뉴 배경 이미지" />
+          <nav class="side-menu-box" aria-label="마이페이지 메뉴">
             <ul class="frame">
-              <li class="side-menu-btn">
-                <a href="#" class="text-wrapper-4">매칭알림</a>
-              </li>
-              <li class="side-menu-btn">
-                <a href="#" class="text-wrapper-4">거래관리</a>
-              </li>
-              <li class="side-menu-btn">
-                <a href="#" class="text-wrapper-4">관심기업</a>
-              </li>
-              <li class="side-menu-btn">
-                <a href="#" class="text-wrapper-4">계정관리</a>
-              </li>
+              <li class="side-menu-btn"><a href="#" class="text-wrapper-4">매칭알림</a></li>
+              <li class="side-menu-btn"><a href="#" class="text-wrapper-4">거래관리</a></li>
+              <li class="side-menu-btn"><a href="#" class="text-wrapper-4">관심기업</a></li>
+              <li class="side-menu-btn"><a href="#" class="text-wrapper-4">계정관리</a></li>
             </ul>
           </nav>
         </aside>
-        <section class="mypage-info-content" aria-labelledby="mypage-title">
+        <article class="mypage-info-content" role="region" aria-labelledby="mypage-title">
           <div class="rectangle" aria-hidden="true"></div>
           <div class="frame-2">
-            <div class="frame-3">
-              <h2 class="text-wrapper-5" id="mypage-title">마이페이지</h2>
+            <header class="frame-3">
+              <h2 id="mypage-title" class="text-wrapper-5">마이페이지</h2>
               <p class="text-wrapper-6">회원님의 플랫폼 활동정보가 관리됩니다.</p>
-            </div>
-            <div class="info-content">
-              <article class="info-box">
-                <header class="info-title">
+            </header>
+            <section class="info-content" aria-label="마이페이지 기능 안내">
+              <div class="info-box">
+                <div class="info-title">
                   <img class="title-line" src="img/title-line-3.svg" alt="" role="presentation" />
                   <h3 class="text-wrapper-7">거래관리</h3>
-                </header>
-                <p class="text-wrapper-8">등록정보 수정, 철회</p>
-                <p class="text-wrapper-8">TM보내기 (M&amp;A등록시 미발송)</p>
-                <p class="text-wrapper-8">내게 접수된 거래의향서 답신</p>
-                <p class="text-wrapper-8">내가 제출한 거래의향서 회신보기</p>
-              </article>
-              <article class="info-box">
-                <header class="info-title">
+                </div>
+                <ul>
+                  <li class="text-wrapper-8">등록정보 수정, 철회</li>
+                  <li class="text-wrapper-8">TM보내기 (M&amp;A등록시 미발송)</li>
+                  <li class="text-wrapper-8">내게 접수된 거래의향서 답신</li>
+                  <li class="text-wrapper-8">내가 제출한 거래의향서 회신보기</li>
+                </ul>
+              </div>
+              <div class="info-box">
+                <div class="info-title">
                   <img class="title-line" src="img/title-line-2.svg" alt="" role="presentation" />
                   <h3 class="text-wrapper-7">매칭알림</h3>
-                </header>
-                <p class="text-wrapper-8">등록정보 수정, 철회</p>
-              </article>
-              <article class="info-box">
-                <header class="info-title">
+                </div>
+                <ul>
+                  <li class="text-wrapper-8">등록정보 수정, 철회</li>
+                </ul>
+              </div>
+              <div class="info-box">
+                <div class="info-title">
                   <img class="title-line" src="img/title-line.svg" alt="" role="presentation" />
                   <h3 class="text-wrapper-7">관심기업</h3>
-                </header>
-                <p class="text-wrapper-8">정보열람, 거래의향서 제출</p>
-              </article>
-              <article class="info-box">
-                <header class="info-title">
+                </div>
+                <ul>
+                  <li class="text-wrapper-8">정보열람, 거래의향서 제출</li>
+                </ul>
+              </div>
+              <div class="info-box">
+                <div class="info-title">
                   <img class="title-line" src="img/image.svg" alt="" role="presentation" />
                   <h3 class="text-wrapper-7">계정관리</h3>
-                </header>
-                <p class="text-wrapper-8">개인정보 수정, 탈퇴</p>
-              </article>
-            </div>
+                </div>
+                <ul>
+                  <li class="text-wrapper-8">개인정보 수정, 탈퇴</li>
+                </ul>
+              </div>
+            </section>
           </div>
-        </section>
+        </article>
       </main>
     </div>
   </body>
